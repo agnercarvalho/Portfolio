@@ -22,6 +22,27 @@
     color: var(--cor-branco);
 }
 
+/* Tipografia */
+.biotexto h1{
+    font-size: 3rem;
+    color: var(--cor-chumbo);
+    font-weight: 900;
+    line-height: 100%;
+}
+
+.biotexto h6{
+    font-size: 1.2rem;
+}
+
+.biotexto p{
+    font-size: 1.5rem;
+}
+
+/*  */
+a{
+
+}
+
 /* Tamanhos */
 
 .submenu{
