@@ -117,6 +117,12 @@ a:hover{
     width: 50%;
 }
 
+.projeto{
+    width:31%;
+    background-color: red;
+    height: 150px;
+}
+
 /* Personalização */
 .areas{
     width: 31.5%;
@@ -142,6 +148,10 @@ a:hover{
 
 .acenter{
     align-items: center;
+}
+
+.galeria{
+    gap: 30px;
 }
 
 .menu{
