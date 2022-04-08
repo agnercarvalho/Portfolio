@@ -51,6 +51,8 @@ li{
 .bg-ve{
     background-color: var(--cor-verde);
 }
+/* Seletores Cores JS*/
+
 
 
 /* Tipografia */
@@ -204,7 +206,6 @@ a:hover{
     left: 60px;
     height: 15px;
     width: 150px;
-    background-color: var(--cor-amarelo);
     z-index: -100;
     overflow: visible;
 }
