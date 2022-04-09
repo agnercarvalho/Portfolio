@@ -7,6 +7,13 @@ const fonts = document.querySelectorAll(".fontcolor");
 const line = document.querySelector("#moldura");
 const plus = document.querySelector(".plus");
 
+// /* LARGURA DA DESCRIÇÃO */
+// const descLarg = document.getElementsByClassName("areas");
+// const descricao = document.getElementsByClassName("descricao");
+
+// descricao.forEach()
+
+
 plus.addEventListener("click",function(event){
     const more = document.querySelector(".more");
     console.log(event.target);
