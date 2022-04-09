@@ -254,6 +254,7 @@ a:hover{
     right: -40%;
     border-radius: 1000px;
     -webkit-filter: blur(50px);
+    filter: blur(50px);
 }
 
 .circle2{
@@ -264,6 +265,7 @@ a:hover{
     left: -20%;
     border-radius: 1000px;
     -webkit-filter: blur(50px);
+    filter: blur(50px);
 }
 
 .circle3{
@@ -274,6 +276,7 @@ a:hover{
     left: 10%;
     border-radius: 1000px;
     -webkit-filter: blur(50px);
+    filter: blur(50px);
 }
 
 .contentcontainer{
