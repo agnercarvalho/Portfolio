@@ -75,6 +75,7 @@ li{
 
 .subtitulo{
     font-size: 2.5rem;
+    font-weight: 800;
 }
 
 /* Links */
@@ -117,7 +118,8 @@ a:hover{
 
 .projeto{
     width:31%;
-    background-color: red;
+    background-color: white;
+    border-radius: 5px;
     height: 150px;
 }
 
@@ -145,6 +147,7 @@ a:hover{
 /* Alinhamento */
 .dflex{
     display: flex;
+    justify-content: space-between;
 }
 
 .acenter{
