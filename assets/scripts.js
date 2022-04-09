@@ -4,10 +4,19 @@ const colors = document.querySelectorAll(".corestema");
 
 const bgs = document.querySelectorAll(".bgcolor");
 const fonts = document.querySelectorAll(".fontcolor");
-
 const line = document.querySelector("#moldura");
-console.log(line.attributes[2].value);
+const plus = document.querySelector(".plus");
 
+plus.addEventListener("click",function(event){
+    const more = document.querySelector(".more");
+    console.log(event.target);
+    more.classList.toggle("active");
+    if(event.target.innerText == "+"){
+        event.target.innerText = "-";
+    }else{
+        event.target.innerText = "+";
+    };
+});
 
 colors.forEach(function(botao){
     botao.addEventListener("click", trocarcor);

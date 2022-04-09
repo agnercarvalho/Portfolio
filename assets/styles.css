@@ -5,10 +5,10 @@
 
     /* Variaveis */
     --cor-amarelo: #E9B225;
-    --cor-cereja: #C61A39;
+    --cor-cereja: #e43353;
     --cor-azul: #129AFC;
     --cor-verde: #17E1A4;
-    --cor-chumbo: #2D2D2D;
+    --cor-chumbo: #1b1b1b;
     --cor-branco: #ffffff;
 
     font-family: 'Mulish', sans-serif;
@@ -80,7 +80,6 @@ li{
 /* Links */
 a{
     text-decoration: none;
-    transition: all 0.3s ease;
 }
 
 a:hover{
@@ -130,9 +129,8 @@ a:hover{
     height: 70px;
     background-color: var(--cor-chumbo);
     justify-content: center;
-    color: var(--cor-branco);
     border-radius: 15px;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 1.2rem;
 }
 
@@ -211,9 +209,25 @@ a:hover{
     /* transition: all 1s ease-in-out; */
 }
 
+.inactive{
+    height: 0px;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.active{
+    height: 70px;
+    opacity: 1;
+}
+
+
 /* Animações */
 .bgcolor{
     transition: all 0.5s ease-in-out;
+}
+
+.atuacao{
+    transition: all 0.5s ease;
 }
 
 .fontcolor{
@@ -228,7 +242,7 @@ a:hover{
     height: 100vh;
     position:absolute;
     top: 0;
-    opacity: 0.15;
+    opacity: 0.1;
     z-index: -1000;
 }
 
@@ -236,9 +250,10 @@ a:hover{
     position: fixed;
     height: 1000px;
     width: 1000px;
-    top: -30%;
-    right: -30%;
+    top: -50%;
+    right: -40%;
     border-radius: 1000px;
+    -webkit-filter: blur(50px);
 }
 
 .circle2{
@@ -248,18 +263,19 @@ a:hover{
     top: 70%;
     left: -20%;
     border-radius: 1000px;
+    -webkit-filter: blur(50px);
 }
 
 .circle3{
     position: fixed;
     height: 300px;
     width: 300px;
-    top: -30%;
+    top: -10%;
     left: 10%;
     border-radius: 1000px;
+    -webkit-filter: blur(50px);
 }
 
 .contentcontainer{
     width: 100%;
-    backdrop-filter: blur(50px);
 }
