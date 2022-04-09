@@ -51,8 +51,6 @@ li{
 .bg-ve{
     background-color: var(--cor-verde);
 }
-/* Seletores Cores JS*/
-
 
 
 /* Tipografia */
@@ -95,7 +93,6 @@ a:hover{
 }
 
 /* Tamanhos */
-
 .submenu{
     list-style: none;
     width: 400px;
@@ -141,6 +138,10 @@ a:hover{
 
 .projetos{
     border-radius: 15px;
+}
+
+.glass{
+    opacity: 0.8;
 }
 
 /* Alinhamento */
@@ -201,11 +202,64 @@ a:hover{
 
 /* Elementos */
 .detalhe{
-    position: absolute ;
-    top: 210px;
-    left: 60px;
+    position: absolute;
+    transform: translateY(-15px);
     height: 15px;
     width: 150px;
     z-index: -100;
     overflow: visible;
+    /* transition: all 1s ease-in-out; */
+}
+
+/* Animações */
+.bgcolor{
+    transition: all 0.5s ease-in-out;
+}
+
+.fontcolor{
+    transition: all 0.5s ease-in-out;
+}
+#moldura{
+    transition: all 0.5s ease;
+}
+
+/* Fundo animado */
+.fundoanim{
+    height: 100vh;
+    position:absolute;
+    top: 0;
+    opacity: 0.15;
+    z-index: -1000;
+}
+
+.circle1{
+    position: fixed;
+    height: 1000px;
+    width: 1000px;
+    top: -30%;
+    right: -30%;
+    border-radius: 1000px;
+}
+
+.circle2{
+    position: fixed;
+    height: 900px;
+    width: 900px;
+    top: 70%;
+    left: -20%;
+    border-radius: 1000px;
+}
+
+.circle3{
+    position: fixed;
+    height: 300px;
+    width: 300px;
+    top: -30%;
+    left: 10%;
+    border-radius: 1000px;
+}
+
+.contentcontainer{
+    width: 100%;
+    backdrop-filter: blur(50px);
 }
