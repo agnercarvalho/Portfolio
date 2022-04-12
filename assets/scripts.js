@@ -14,7 +14,6 @@ for(botao of areas){
     botao.addEventListener("click",function(event){
         const itemDesc = event.target.children;
         if((event.target.innerText!="+")&&(event.target.innerText!="-")){
-            console.log(event);
             itemDesc[1].classList.toggle("descOn");
         }
     });
