@@ -7,13 +7,17 @@ const fonts = document.querySelectorAll(".fontcolor");
 const line = document.querySelector("#moldura");
 const plus = document.querySelector(".plus");
 
-// /* LARGURA DA DESCRIÇÃO */
-// const descLarg = document.getElementsByClassName("areas");
-// const descricao = document.getElementsByClassName("descricao");
 
-// descricao.forEach()
+const areas = document.getElementsByClassName("areas");
+/* Toggle da descrição */
+for(area of areas){
+    area.addEventListener("click",function(event){
+        const itemDesc = event.target.children;
+        itemDesc[1].classList.toggle("descOn");
+    });
+}
 
-
+/* Mostrar mais áreas de atuação */
 plus.addEventListener("click",function(event){
     const more = document.querySelector(".more");
     console.log(event.target);
