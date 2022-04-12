@@ -15,7 +15,9 @@ for(botao of areas){
         const itemDesc = event.target.children;
         if((event.target.innerText!="+")&&(event.target.innerText!="-")){
             itemDesc[1].classList.toggle("descOn");
+            event.target.classList.toggle("border-ajust");
         }
+        
     });
 }
 
