@@ -10,10 +10,13 @@ const plus = document.querySelector(".plus");
 
 const areas = document.getElementsByClassName("areas");
 /* Toggle da descrição */
-for(area of areas){
-    area.addEventListener("click",function(event){
+for(botao of areas){
+    botao.addEventListener("click",function(event){
         const itemDesc = event.target.children;
-        itemDesc[1].classList.toggle("descOn");
+        if((event.target.innerText!="+")&&(event.target.innerText!="-")){
+            console.log(event);
+            itemDesc[1].classList.toggle("descOn");
+        }
     });
 }
 
