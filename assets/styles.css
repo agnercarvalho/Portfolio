@@ -25,7 +25,6 @@ li{
 .fontebranco{
     color: var(--cor-branco);
 }
-
 .fonteamarelo{
     color: var(--cor-amarelo);
 }
@@ -60,22 +59,26 @@ li{
     font-weight: 900;
     line-height: 100%;
 }
-
 .biotexto h6{
     font-size: 1.2rem;
 }
-
 .biotexto p{
     font-size: 1.2rem;
 }
-
 .biotexto a{
     font-size: 1.2rem;
 }
-
 .subtitulo{
     font-size: 2.5rem;
     font-weight: 800;
+    color: var(--cor-chumbo);
+}
+.rodape{
+    font-size: 0.8rem;
+}
+.getin{
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 /* Links */
@@ -122,6 +125,9 @@ a:hover{
     border-radius: 5px;
     height: 150px;
 }
+.footer{
+    height: 70px;
+}
 
 /* Personalização */
 .areas{
@@ -148,19 +154,12 @@ a:hover{
     text-align: center;
     pointer-events: none;
 }
-
 .projetos{
     border-radius: 15px;
 }
-
-.glass{
-    opacity: 0.8;
-}
-
 .over{
     overflow: visible;
 }
-
 .border-ajust{
     border-radius: 15px 15px 0 0;
 }
@@ -170,19 +169,15 @@ a:hover{
     display: flex;
     justify-content: space-between;
 }
-
 .dblock{
     display: block;
 }
-
 .acenter{
     align-items: center;
 }
-
 .galeria{
     gap: 30px;
 }
-
 .menu{
     justify-content: space-between;
     max-width: 1080px;
@@ -190,7 +185,6 @@ a:hover{
     height: 60px;
     padding: 0 20px 0 20px;
 }
-
 .btn{
     height: 20px;
     width: 20px;
@@ -199,10 +193,20 @@ a:hover{
     cursor: pointer;
     margin: 0 5px 0 5px;
 }
-
 .atuacao{
     flex-wrap: wrap;
     gap: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
 }
 
 /* Espaçamento */
@@ -213,7 +217,7 @@ a:hover{
     padding-bottom: 40px;
 } 
 .spaceg{
-    padding-bottom: 60px;
+    padding-bottom: 80px;
 } 
 
 .corestema{
@@ -227,6 +231,12 @@ a:hover{
     justify-content: flex-end;
     -webkit-filter: drop-shadow(20px 20px 1.3rem);
     filter: drop-shadow(20px 20px 1.3rem);
+}
+.softwares{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
 }
 
 /* Elementos */

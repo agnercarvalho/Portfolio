@@ -24,7 +24,6 @@ for(botao of areas){
 /* Mostrar mais áreas de atuação */
 plus.addEventListener("click",function(event){
     const more = document.querySelector(".more");
-    console.log(event.target);
     more.classList.toggle("active");
     if(event.target.innerText == "+"){
         event.target.innerText = "-";
