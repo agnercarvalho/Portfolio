@@ -128,7 +128,9 @@ a:hover{
 .footer{
     height: 70px;
 }
-
+.icons{
+    height: 50px;
+}
 /* Personalização */
 .areas{
     position: relative;
