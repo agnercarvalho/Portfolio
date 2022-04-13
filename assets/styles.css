@@ -418,6 +418,9 @@ a:hover{
     .icons{
         height: 30px;
     }
+    .submenu{
+        width: 230px;
+    }
     /* Espaçamento */
     .spaceg{
         padding-bottom: 60px;
