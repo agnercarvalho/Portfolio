@@ -179,6 +179,11 @@ a:hover{
     display: flex;
     justify-content: space-between;
 }
+.dflexnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .dblock{
     display: block;
 }
@@ -349,4 +354,84 @@ a:hover{
 
 .contentcontainer{
     width: 100%;
+}
+
+@media (max-width: 850px){
+    .dflex{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .tema{
+        display: none;
+    }
+    .corestema{
+        padding: 0;
+    }
+    .menu{
+        padding: 0 10px 0 10px;
+        width: 100%;
+    }
+    /* Tipografia */
+    .submenu a{
+        font-size: 0.7rem;
+    }
+    .titulo{
+        font-size: 2.5rem;
+    }
+    .biotexto h6{
+        font-size: 0.9rem;
+    }
+    .biotexto p{
+        font-size: 1rem;
+    }
+    .biotexto .link{
+        font-size: 1.1rem;
+    }
+    .areas p{
+        font-size: 1rem;
+    }
+    .pj{
+        font-size: 1rem;
+    }
+    .rodape{
+        text-align: center;
+        font-size: 0.7rem;
+    }
+    /* Largura */
+    .larg5{
+        width: 100%;
+    }
+    .bioimagem svg{
+        width: 100%;
+    }
+    .areas{
+        width: 100%;
+        height: 50px;
+    }
+    .active{
+        height: 210px;
+    }
+    .projeto{
+        width: 100%;
+        height: 100px;
+    }
+    .icons{
+        height: 30px;
+    }
+    /* Espaçamento */
+    .spaceg{
+        padding-bottom: 60px;
+    }
+    /* Personalização */
+    .descricao{
+        top: 50px;
+        font-size: 0.9rem;
+    }
+    .softwares{
+        gap: 10px;
+    }
+    .footer{
+        flex-direction: column;
+        height: 150px;
+    }
 }
