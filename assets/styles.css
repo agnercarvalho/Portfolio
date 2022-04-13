@@ -356,7 +356,7 @@ a:hover{
     width: 100%;
 }
 
-@media (max-width: 850px){
+@media only screen and (max-width: 850px){
     .dflex{
         flex-direction: column;
         flex-wrap: wrap;
