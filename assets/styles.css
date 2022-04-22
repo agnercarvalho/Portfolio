@@ -164,6 +164,9 @@ a:hover{
     text-align: center;
     pointer-events: none;
 }
+.area-ativa{
+    font-weight: 600;
+}
 .projetos{
     border-radius: 15px;
 }

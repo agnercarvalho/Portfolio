@@ -8,18 +8,20 @@ const line = document.querySelector("#moldura");
 const plus = document.querySelector(".plus");
 
 
-const areas = document.getElementsByClassName("areas");
+const areas = document.querySelectorAll(".areas");
 /* Toggle da descrição */
-for(botao of areas){
-    botao.addEventListener("click",function(event){
-        const itemDesc = event.target.children;
+areas.forEach(function(area){
+    area.addEventListener("click",function(event){    
+        const descricaoItem = area.childNodes;
+        event.stopPropagation();
+        descricaoItem[0].classList.toggle("area-ativa");
         if((event.target.innerText!="+")&&(event.target.innerText!="-")){
-            itemDesc[1].classList.toggle("descOn");
-            event.target.classList.toggle("border-ajust");
+            area.classList.toggle("border-ajust");          
+            descricaoItem[1].classList.toggle("descOn");
         }
-        
     });
-}
+});
+
 
 /* Mostrar mais áreas de atuação */
 plus.addEventListener("click",function(event){
