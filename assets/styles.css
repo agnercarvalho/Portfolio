@@ -247,8 +247,9 @@ a:hover{
 .bioimagem{
     display: flex;
     justify-content: flex-end;
-    -webkit-filter: drop-shadow(20px 20px 1.3rem);
-    filter: drop-shadow(20px 20px 1.3rem);
+    position: relative;
+    justify-items: center;
+    align-items: center;
 }
 .softwares{
     display: flex;
@@ -256,6 +257,31 @@ a:hover{
     gap: 20px;
 
 }
+.ilustracao{
+    width: 80%;
+    max-width: 330px;
+    position: absolute;
+    right: 7%;
+    transition: all 0.5s ease;
+}
+
+/* Cores da Camisa */
+.ao{fill:var(--cor-amarelo);}
+.n{fill:var(--cor-amarelo);}
+
+.fill-ce .n,.ao{
+    fill:var(--cor-cereja);
+}
+.fill-am .n,.ao{
+    fill:var(--cor-amarelo);
+}
+.fill-az .n,.ao{
+    fill:var(--cor-azul);
+}
+.fill-ve .n,.ao{
+    fill:var(--cor-verde);
+}
+
 
 /* Elementos */
 .detalhe{

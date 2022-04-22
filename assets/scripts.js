@@ -6,6 +6,10 @@ const bgs = document.querySelectorAll(".bgcolor");
 const fonts = document.querySelectorAll(".fontcolor");
 const line = document.querySelector("#moldura");
 const plus = document.querySelector(".plus");
+const ilustration = document.querySelector(".ilustracao");
+
+console.log(ilustration.classList);
+
 
 
 const areas = document.querySelectorAll(".areas");
@@ -59,6 +63,8 @@ function mudarcor(cor){
     switch(cor){
         case "am":
             line.attributes[2].value = "#E9B225";
+            ilustration.classList.add("fill-am");
+            ilustration.classList.remove("fill-ce","fill-az","fill-ve");            
             bgs.forEach( function(item){
                 item.classList.add("bg-am");
                 item.classList.remove("bg-ce", "bg-az", "bg-ve");
@@ -70,6 +76,8 @@ function mudarcor(cor){
         break;
         case "ce":
             line.attributes[2].value = "#C61A39";
+            ilustration.classList.add("fill-ce");
+            ilustration.classList.remove("fill-am","fill-az","fill-ve");  
             bgs.forEach( function(item){
                 item.classList.add("bg-ce");
                 item.classList.remove("bg-am", "bg-az", "bg-ve");
@@ -81,6 +89,8 @@ function mudarcor(cor){
         break;
         case "az":
             line.attributes[2].value = "#129AFC";
+            ilustration.classList.add("fill-az");
+            ilustration.classList.remove("fill-am","fill-ce","fill-ve"); 
             bgs.forEach( function(item){
                 item.classList.add("bg-az");
                 item.classList.remove("bg-am", "bg-ce", "bg-ve");
@@ -92,6 +102,8 @@ function mudarcor(cor){
         break;
         case "ve":
             line.attributes[2].value = "#17E1A4";
+            ilustration.classList.add("fill-ve");
+            ilustration.classList.remove("fill-am","fill-ce","fill-az"); 
             bgs.forEach( function(item){
                 item.classList.add("bg-ve");
                 item.classList.remove("bg-am", "bg-az", "bg-ce");
