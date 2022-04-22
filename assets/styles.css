@@ -121,6 +121,8 @@ a:hover{
     margin: 0 auto;
     padding: 30px;
     max-width: 1080px;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
 }
 .larg5{
     width: 50%;
@@ -305,6 +307,7 @@ a:hover{
 .active{
     height: 70px;
     opacity: 1;
+    overflow: visible;
 }
 
 .descricao{
@@ -359,8 +362,7 @@ a:hover{
     top: -50%;
     right: -40%;
     border-radius: 1000px;
-    -webkit-filter: blur(50px);
-    filter: blur(50px);
+
 }
 
 .circle2{
@@ -370,8 +372,7 @@ a:hover{
     top: 70%;
     left: -20%;
     border-radius: 1000px;
-    -webkit-filter: blur(50px);
-    filter: blur(50px);
+
 }
 
 .circle3{
@@ -381,8 +382,7 @@ a:hover{
     top: -10%;
     left: 10%;
     border-radius: 1000px;
-    -webkit-filter: blur(50px);
-    filter: blur(50px);
+
 }
 
 .contentcontainer{
