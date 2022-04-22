@@ -443,7 +443,7 @@ a:hover{
         height: 50px;
     }
     .active{
-        height: 150px;
+        height: 190px;
     }
     .projeto{
         width: 100%;
@@ -474,6 +474,9 @@ a:hover{
     /* Espaçamento */
     .spaceg{
         padding-bottom: 60px;
+    }
+    .biotexto{
+        padding-top: 30px;
     }
 
     /* Personalização */
