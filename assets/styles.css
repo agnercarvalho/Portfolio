@@ -5,8 +5,8 @@
 
     /* Variaveis */
     --cor-amarelo: #E9B225;
-    --cor-cereja: #e43353;
-    --cor-azul: #129AFC;
+    --cor-cereja: #fd708a;
+    --cor-azul: #4fb6ff;
     --cor-verde: #17E1A4;
     --cor-chumbo: #1b1b1b;
     --cor-branco: #ffffff;
@@ -121,8 +121,6 @@ a:hover{
     margin: 0 auto;
     padding: 30px;
     max-width: 1080px;
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
 }
 .larg5{
     width: 50%;
@@ -180,6 +178,15 @@ a:hover{
 }
 .border-ajust{
     border-radius: 15px 15px 0 0;
+}
+.contentcontainer{
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0,0.07);
 }
 
 /* Alinhamento */
@@ -351,7 +358,7 @@ a:hover{
     height: 100vh;
     position:absolute;
     top: 0;
-    opacity: 0.1;
+    opacity: 0.3;
     z-index: -1000;
 }
 
@@ -362,7 +369,6 @@ a:hover{
     top: -50%;
     right: -40%;
     border-radius: 1000px;
-
 }
 
 .circle2{
@@ -372,7 +378,6 @@ a:hover{
     top: 70%;
     left: -20%;
     border-radius: 1000px;
-
 }
 
 .circle3{
@@ -382,11 +387,14 @@ a:hover{
     top: -10%;
     left: 10%;
     border-radius: 1000px;
-
 }
 
-.contentcontainer{
+.maincontainer{
     width: 100%;
+}
+.contentcontainer{
+    max-width: 1140px;
+    margin: 40px auto 40px auto;
 }
 
 @media only screen and (max-width: 850px){
