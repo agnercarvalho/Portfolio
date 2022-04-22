@@ -97,6 +97,9 @@ a{
 a:hover{
     font-weight: 700;
 }
+.biotexto a{
+    text-decoration: underline;
+}
 .tiny{
     padding: 0 10px 0 10px;
     font-size: 0.7rem;
@@ -296,6 +299,7 @@ a:hover{
 .inactive{
     height: 0px;
     opacity: 0;
+    overflow: hidden;
 }
 
 .active{
@@ -426,6 +430,7 @@ a:hover{
         text-align: center;
         font-size: 0.7rem;
     }
+
     /* Largura */
     .larg5{
         width: 100%;
@@ -450,10 +455,27 @@ a:hover{
     .submenu{
         width: 230px;
     }
+    .bioimagem{
+        height: 320px;
+    }
+    .bioimagem .ilustracao{
+        width: 70%;
+        left:auto;
+        right: auto;
+        top: 4%;
+        max-height: 300px;
+    }
+    .bioimagem .moldura{
+        width: 80%;
+        left:auto;
+        right: auto;
+    }
+
     /* Espaçamento */
     .spaceg{
         padding-bottom: 60px;
     }
+
     /* Personalização */
     .descricao{
         top: 50px;
@@ -465,5 +487,13 @@ a:hover{
     .footer{
         flex-direction: column;
         height: 150px;
+    }
+
+    /* Posição */
+    .biotexto{
+        order: 2;
+    }
+    .bioimagem{
+        order: 1;
     }
 }
