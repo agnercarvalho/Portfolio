@@ -238,6 +238,9 @@ a:hover{
     gap: 10px;
     align-items: center;
 }
+.dados{
+    align-items: center;
+}
 
 /* Espaçamento */
 .spacep{
@@ -412,6 +415,7 @@ a:hover{
         padding: 0 10px 0 10px;
         width: 100%;
     }
+
     /* Tipografia */
     .submenu a{
         font-size: 0.7rem;
@@ -498,6 +502,11 @@ a:hover{
     .footer{
         flex-direction: column;
         height: 150px;
+    }
+    .contentcontainer{
+        border: none;
+        margin: 0;
+        box-shadow: none;
     }
 
     /* Posição */

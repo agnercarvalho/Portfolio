@@ -8,9 +8,6 @@ const line = document.querySelector("#moldura");
 const plus = document.querySelector(".plus");
 const ilustration = document.querySelector(".ilustracao");
 
-console.log(ilustration.classList);
-
-
 
 const areas = document.querySelectorAll(".areas");
 /* Toggle da descrição */
