@@ -15,8 +15,8 @@ areas.forEach(function(area){
     area.addEventListener("click",function(event){    
         const descricaoItem = area.childNodes;
         event.stopPropagation();
-        descricaoItem[0].classList.toggle("area-ativa");
         if((event.target.innerText!="+")&&(event.target.innerText!="-")){
+            descricaoItem[0].classList.toggle("area-ativa");
             area.classList.toggle("border-ajust");          
             descricaoItem[1].classList.toggle("descOn");
         }
